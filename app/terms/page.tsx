@@ -10,7 +10,7 @@ export default function TermsPage() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
-                <span className="text-xl font-bold text-gray-900">Customer Covered</span>
+                <span className="text-xl font-bold text-gray-900">Covered</span>
               </Link>
             </div>
             <div className="hidden md:block">
@@ -57,14 +57,14 @@ export default function TermsPage() {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">2. Description of Service</h2>
           <p className="text-gray-600 mb-6">
-            Covered provides a carrier-compliant SMS verification platform that allows businesses to verify customer phone numbers through a secure, pass-through verification page. The Service includes:
+            Covered provides an AI-powered customer care platform that helps businesses automate phone calls, appointment scheduling, and customer support. The Service includes:
           </p>
           <ul className="list-disc pl-6 text-gray-600 mb-6 space-y-2">
-            <li>SMS verification landing pages</li>
-            <li>Phone number verification flow</li>
-            <li>Parameter preservation and redirect functionality</li>
-            <li>Multi-brand support with customizable styling</li>
-            <li>Carrier-compliant infrastructure</li>
+            <li>AI-powered outbound and inbound phone call automation</li>
+            <li>Appointment scheduling and calendar management</li>
+            <li>SMS customer care messaging and notifications</li>
+            <li>Automated follow-ups and appointment reminders</li>
+            <li>Carrier-compliant SMS infrastructure</li>
           </ul>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">3. Account Registration and Security</h2>
@@ -98,21 +98,26 @@ export default function TermsPage() {
             <li>Violate carrier regulations or 10DLC compliance requirements</li>
           </ul>
 
-          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">5. Compliance with Carrier Requirements</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">5. SMS Customer Care Messaging</h2>
           
-          <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">5.1 10DLC Compliance</h3>
+          <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">5.1 Purpose of SMS Messages</h3>
           <p className="text-gray-600 mb-6">
-            You agree to comply with all applicable carrier requirements, including 10DLC (10-Digit Long Code) regulations. You are responsible for obtaining proper consent from end users before sending SMS messages and maintaining records of such consent.
+            Covered uses SMS messaging solely for customer care purposes, including appointment reminders, follow-up messages, scheduling confirmations, and support communications. SMS messages are sent only to users who have explicitly opted in to receive them.
           </p>
 
-          <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">5.2 Opt-In Requirements</h3>
+          <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">5.2 Opt-In and Opt-Out</h3>
           <p className="text-gray-600 mb-6">
-            You must obtain explicit opt-in consent from end users before sending them SMS messages through our Service. You must provide clear opt-out mechanisms and honor opt-out requests promptly.
+            By providing your phone number and checking the SMS consent box on our sign-up form, you agree to receive customer care text messages from Covered. You may opt out at any time by replying STOP to any message. Reply HELP or email support@customercovered.com for assistance. Opting in to SMS is optional and not required to use our services.
           </p>
 
-          <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">5.3 Content Restrictions</h3>
+          <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">5.3 Message Frequency and Rates</h3>
           <p className="text-gray-600 mb-6">
-            You agree not to send messages containing prohibited content, including but not limited to: illegal content, adult content, gambling, cannabis, firearms, or any content that violates carrier guidelines.
+            Message frequency varies based on your activity and appointments. Standard message and data rates may apply. Carriers are not liable for delayed or undelivered messages. All SMS communications are handled by Covered and comply with applicable carrier regulations and 10DLC requirements.
+          </p>
+
+          <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">5.4 Content Restrictions</h3>
+          <p className="text-gray-600 mb-6">
+            SMS messages sent through our Service are limited to customer care content. We do not send promotional, marketing, or prohibited content including but not limited to: illegal content, adult content, gambling, cannabis, or firearms-related messages.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">6. Fees and Payment</h2>

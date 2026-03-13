@@ -69,7 +69,7 @@ function VerifyPageContent() {
       <div className="max-w-md w-full bg-white rounded-2xl shadow-xl p-8">
         {/* Logo/Brand */}
         <div className="flex justify-center mb-8">
-          <span className="text-2xl font-bold text-gray-900">Customer Covered</span>
+          <span className="text-2xl font-bold text-gray-900">Covered</span>
         </div>
 
         {/* Verification Content */}

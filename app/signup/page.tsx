@@ -44,7 +44,7 @@ export default function SignupPage() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
-                <span className="text-xl font-bold text-gray-900">Customer Covered</span>
+                <span className="text-xl font-bold text-gray-900">Covered</span>
               </Link>
             </div>
             <div className="hidden md:block">
