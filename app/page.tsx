@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { CheckCircle, Zap, Users } from 'lucide-react';
+import { CheckCircle, Zap, Users, Phone, PhoneCall, PhoneIncoming } from 'lucide-react';
 
 export default function HomePage() {
   return (
@@ -41,11 +41,11 @@ export default function HomePage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center">
           <h1 className="text-5xl font-extrabold text-gray-900 sm:text-6xl md:text-7xl">
-            AI-Powered Meeting Scheduling
-            <span className="block text-gray-900">& Customer Care Support</span>
+            AI-Powered Phone Calls
+            <span className="block text-gray-900">That Drive Real Results</span>
           </h1>
           <p className="mt-6 max-w-2xl mx-auto text-xl text-gray-600">
-            Automate appointment scheduling and provide 24/7 customer support with intelligent AI assistants. Transform your customer experience with seamless automation.
+            Automate outbound and inbound phone calls with intelligent AI voice agents. Schedule appointments, follow up with leads, and provide 24/7 customer support — all over the phone.
           </p>
           <div className="mt-10 flex justify-center gap-4">
             <Link
@@ -69,7 +69,7 @@ export default function HomePage() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900">Why Choose Covered?</h2>
           <p className="mt-4 text-xl text-gray-600">
-            Trusted by businesses to automate scheduling and deliver exceptional customer care
+            Trusted by businesses to drive phone calls, automate scheduling, and deliver exceptional customer care
           </p>
         </div>
 
@@ -77,39 +77,39 @@ export default function HomePage() {
           {/* Feature 1 */}
           <div className="bg-white p-8 rounded-xl border border-gray-200 hover:border-gray-900 transition-all">
             <div className="flex justify-center mb-4">
-              <CheckCircle className="w-12 h-12 text-gray-900" />
+              <PhoneCall className="w-12 h-12 text-gray-900" />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 text-center mb-3">
-              Smart Meeting Scheduling
+              AI Outbound Calling
             </h3>
             <p className="text-gray-600 text-center">
-              AI-powered scheduling that automatically books appointments, sends reminders, and manages calendar conflicts without human intervention.
+              AI voice agents that automatically call leads, follow up on appointments, and re-engage customers — at scale, without a sales team.
             </p>
           </div>
 
           {/* Feature 2 */}
           <div className="bg-white p-8 rounded-xl border border-gray-200 hover:border-gray-900 transition-all">
             <div className="flex justify-center mb-4">
-              <Zap className="w-12 h-12 text-gray-900" />
+              <PhoneIncoming className="w-12 h-12 text-gray-900" />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 text-center mb-3">
-              24/7 Customer Support
+              24/7 Inbound Call Handling
             </h3>
             <p className="text-gray-600 text-center">
-              AI assistants that handle customer inquiries, resolve issues, and provide instant support around the clock.
+              Never miss a call. AI answers inbound calls around the clock, handles inquiries, books appointments, and routes urgent issues to your team.
             </p>
           </div>
 
           {/* Feature 3 */}
           <div className="bg-white p-8 rounded-xl border border-gray-200 hover:border-gray-900 transition-all">
             <div className="flex justify-center mb-4">
-              <Users className="w-12 h-12 text-gray-900" />
+              <Zap className="w-12 h-12 text-gray-900" />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 text-center mb-3">
-              Intelligent Automation
+              Intelligent Call Automation
             </h3>
             <p className="text-gray-600 text-center">
-              Natural language processing that understands customer needs and provides personalized responses and solutions.
+              Natural-sounding AI conversations that understand customer intent, personalize responses, and drive action on every call.
             </p>
           </div>
         </div>
@@ -130,25 +130,25 @@ export default function HomePage() {
             <div className="space-y-12">
               {/* Solution 1 */}
               <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">AI Meeting Scheduler</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">AI Outbound Call Campaigns</h3>
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Let AI handle appointment booking automatically. Customers can schedule meetings via chat, email, or SMS, with automatic calendar integration and conflict resolution.
+                  Launch AI-powered outbound call campaigns that reach hundreds of leads simultaneously. Our voice agents qualify prospects, book appointments, and update your CRM — automatically.
                 </p>
               </div>
 
               {/* Solution 2 */}
               <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Automated Customer Care</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Inbound Call Reception & Booking</h3>
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  AI-powered support agents that understand customer questions, provide instant answers, and escalate complex issues to human agents when needed.
+                  AI answers every inbound call instantly, 24/7. It handles FAQs, schedules appointments directly into your calendar, and escalates complex calls to a live agent when needed.
                 </p>
               </div>
 
               {/* Solution 3 */}
               <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Smart Reminders & Follow-ups</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Call Follow-ups & Reminders</h3>
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Automated appointment reminders, follow-up messages, and proactive customer care that keeps your clients engaged and informed.
+                  Automated phone call reminders reduce no-shows and keep customers engaged. AI follows up after appointments, collects feedback, and nurtures leads through the funnel.
                 </p>
               </div>
             </div>
@@ -172,10 +172,10 @@ export default function HomePage() {
         <div className="bg-gray-900 rounded-2xl shadow-2xl overflow-hidden">
           <div className="px-6 py-16 sm:px-12 sm:py-20 text-center">
             <h2 className="text-4xl font-bold text-white mb-6">
-              Ready to Transform Customer Conversations?
+              Ready to Start Driving More Phone Calls?
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Join businesses that trust Covered to automate scheduling and drive meaningful customer conversations with AI.
+              Join businesses that trust Covered to automate phone calls, book more appointments, and turn every conversation into a conversion.
             </p>
             <Link
               href="/signup"
@@ -194,7 +194,7 @@ export default function HomePage() {
             <div>
               <h3 className="text-xl font-bold mb-4">Covered</h3>
               <p className="text-gray-400">
-                AI-powered meeting scheduling and customer care automation.
+                AI-powered phone calls that drive appointments, conversions, and customer care — 24/7.
               </p>
             </div>
             <div>

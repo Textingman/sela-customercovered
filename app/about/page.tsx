@@ -43,7 +43,7 @@ export default function AboutPage() {
             About Covered
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We're building the future of AI-powered business automation, helping companies streamline meeting scheduling and deliver exceptional customer care 24/7.
+            We're building the future of AI-powered phone call automation, helping businesses drive more appointments, convert more leads, and deliver exceptional customer care — all over the phone, 24/7.
           </p>
         </div>
       </section>
@@ -53,27 +53,27 @@ export default function AboutPage() {
         <div className="bg-white rounded-xl shadow-lg p-8 md:p-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Mission</h2>
           <p className="text-lg text-gray-600 mb-4">
-            Covered was created to solve a critical problem: businesses waste countless hours on manual scheduling and struggle to provide round-the-clock customer support. We help you automate these processes with intelligent AI assistants.
+            Covered was created to solve a critical problem: businesses miss calls, lose leads, and struggle to provide round-the-clock customer support. We help you automate phone calls with intelligent AI voice agents that sound natural, act fast, and never take a day off.
           </p>
           <p className="text-lg text-gray-600 mb-8">
-            Traditional scheduling methods are time-consuming and customer support is limited by business hours. We've built a platform that uses AI to handle appointments automatically and provide instant customer care 24/7.
+            Traditional phone-based outreach is expensive and limited by human capacity. We've built a platform that uses AI to handle outbound and inbound calls automatically — qualifying leads, booking appointments, and supporting customers 24/7.
           </p>
 
           <h2 className="text-3xl font-bold text-gray-900 mb-6">What We Do</h2>
           <p className="text-lg text-gray-600 mb-4">
-            Covered provides AI-powered automation tools that help businesses streamline operations and enhance customer experience. Our service includes:
+            Covered provides AI-powered phone call automation tools that help businesses drive more revenue and deliver better customer experiences. Our service includes:
           </p>
           <ul className="list-disc list-inside text-lg text-gray-600 mb-8 space-y-2">
-            <li>AI-powered meeting scheduling and calendar management</li>
-            <li>24/7 automated customer support and inquiry handling</li>
-            <li>Intelligent appointment reminders and follow-ups</li>
-            <li>Natural language processing for customer interactions</li>
-            <li>Real-time analytics and performance tracking</li>
+            <li>AI outbound calling to reach and qualify leads at scale</li>
+            <li>24/7 inbound call handling, booking, and customer support</li>
+            <li>Automated phone call reminders and appointment follow-ups</li>
+            <li>Natural-sounding AI voice conversations that convert</li>
+            <li>Real-time call analytics and performance tracking</li>
           </ul>
 
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Why Choose Us</h2>
           <p className="text-lg text-gray-600 mb-4">
-            We understand that time is your most valuable resource. That's why we've built a platform that uses AI to handle scheduling and customer care automatically, freeing your team to focus on what matters most. Our intelligent assistants work 24/7 to ensure no customer inquiry goes unanswered and no appointment opportunity is missed.
+            Every missed call is a missed opportunity. That's why we've built a platform that uses AI to handle phone calls automatically — so your business is always reachable, always converting, and always delivering a great experience. Our AI voice agents work 24/7 to ensure no lead goes cold and no customer goes unanswered.
           </p>
 
           <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-8">Our Address</h2>
@@ -89,10 +89,10 @@ export default function AboutPage() {
         <div className="bg-gray-900 rounded-2xl shadow-2xl overflow-hidden">
           <div className="px-6 py-16 sm:px-12 sm:py-20 text-center">
             <h2 className="text-4xl font-bold text-white mb-6">
-              Ready to Boost Your Conversions?
+              Ready to Drive More Phone Calls?
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Join businesses that trust Covered to automate scheduling and deliver exceptional customer care with AI.
+              Join businesses that trust Covered to automate phone calls, book more appointments, and turn every conversation into a conversion.
             </p>
             <Link
               href="/signup"
@@ -111,7 +111,7 @@ export default function AboutPage() {
             <div>
               <h3 className="text-xl font-bold mb-4">Covered</h3>
               <p className="text-gray-400">
-                AI-powered meeting scheduling and customer care automation.
+                AI-powered phone calls that drive appointments, conversions, and customer care — 24/7.
               </p>
             </div>
             <div>
