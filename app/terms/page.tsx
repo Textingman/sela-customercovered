@@ -63,7 +63,6 @@ export default function TermsPage() {
             <li>AI-powered outbound and inbound phone call automation</li>
             <li>Appointment scheduling and calendar management</li>
             <li>SMS customer care messaging and notifications</li>
-            <li>Automated follow-ups and appointment reminders</li>
             <li>Carrier-compliant SMS infrastructure</li>
           </ul>
 
