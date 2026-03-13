@@ -150,7 +150,7 @@ export default function PrivacyPage() {
             <li><strong>Opt-out:</strong> Opt out of marketing communications</li>
           </ul>
           <p className="text-gray-600 mb-6">
-            To exercise these rights, please contact us at <a href="mailto:privacy@trycovered.com" className="text-[#d364a4] hover:text-[#c24d93]">privacy@trycovered.com</a>.
+            To exercise these rights, please contact us at <a href="mailto:privacy@customercovered.com" className="text-[#d364a4] hover:text-[#c24d93]">privacy@customercovered.com</a>.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">8. Cookies and Tracking Technologies</h2>
@@ -188,9 +188,9 @@ export default function PrivacyPage() {
             If you have any questions about this Privacy Policy or our privacy practices, please contact us:
           </p>
           <div className="bg-gray-50 rounded-lg p-6 mb-8">
-            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:privacy@trycovered.com" className="text-[#d364a4] hover:text-[#c24d93]">privacy@trycovered.com</a></p>
-            <p className="text-gray-600 mb-2"><strong>Support:</strong> <a href="mailto:support@trycovered.com" className="text-[#d364a4] hover:text-[#c24d93]">support@trycovered.com</a></p>
-            <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-[#d364a4] hover:text-[#c24d93]">https://trycovered.com</a></p>
+            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:privacy@customercovered.com" className="text-[#d364a4] hover:text-[#c24d93]">privacy@customercovered.com</a></p>
+            <p className="text-gray-600 mb-2"><strong>Support:</strong> <a href="mailto:support@customercovered.com" className="text-[#d364a4] hover:text-[#c24d93]">support@customercovered.com</a></p>
+            <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-[#d364a4] hover:text-[#c24d93]">https://customercovered.com</a></p>
           </div>
 
         </div>
@@ -239,7 +239,7 @@ export default function PrivacyPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@trycovered.com
+                support@customercovered.com
               </p>
               <p className="text-gray-400 mt-4">
                 1391 Speer Blvd, Ste 850<br />

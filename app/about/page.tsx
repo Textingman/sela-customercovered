@@ -147,7 +147,7 @@ export default function AboutPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@trycovered.com
+                support@customercovered.com
               </p>
               <p className="text-gray-400 mt-4">
                 1391 Speer Blvd, Ste 850<br />

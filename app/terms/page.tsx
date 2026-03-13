@@ -270,9 +270,9 @@ export default function TermsPage() {
             If you have any questions about these Terms, please contact us:
           </p>
           <div className="bg-gray-50 rounded-lg p-6 mb-8">
-            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:legal@trycovered.com" className="text-[#d364a4] hover:text-[#c24d93]">legal@trycovered.com</a></p>
-            <p className="text-gray-600 mb-2"><strong>Support:</strong> <a href="mailto:support@trycovered.com" className="text-[#d364a4] hover:text-[#c24d93]">support@trycovered.com</a></p>
-            <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-[#d364a4] hover:text-[#c24d93]">https://trycovered.com</a></p>
+            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:legal@customercovered.com" className="text-[#d364a4] hover:text-[#c24d93]">legal@customercovered.com</a></p>
+            <p className="text-gray-600 mb-2"><strong>Support:</strong> <a href="mailto:support@customercovered.com" className="text-[#d364a4] hover:text-[#c24d93]">support@customercovered.com</a></p>
+            <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-[#d364a4] hover:text-[#c24d93]">https://customercovered.com</a></p>
           </div>
 
         </div>
@@ -321,7 +321,7 @@ export default function TermsPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@trycovered.com
+                support@customercovered.com
               </p>
               <p className="text-gray-400 mt-4">
                 1391 Speer Blvd, Ste 850<br />
