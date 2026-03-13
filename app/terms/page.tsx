@@ -115,11 +115,6 @@ export default function TermsPage() {
             Message frequency varies based on your activity and appointments. Standard message and data rates may apply. Carriers are not liable for delayed or undelivered messages. All SMS communications are handled by Covered and comply with applicable carrier regulations and 10DLC requirements.
           </p>
 
-          <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">5.4 Content Restrictions</h3>
-          <p className="text-gray-600 mb-6">
-            SMS messages sent through our Service are limited to customer care content. We do not send promotional, marketing, or prohibited content including but not limited to: illegal content, adult content, gambling, cannabis, or firearms-related messages.
-          </p>
-
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">6. Fees and Payment</h2>
           
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">6.1 Service Fees</h3>
