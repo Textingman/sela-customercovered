@@ -102,7 +102,7 @@ export default function TermsPage() {
           
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">5.1 Purpose of SMS Messages</h3>
           <p className="text-gray-600 mb-6">
-            Covered uses SMS messaging solely for customer care purposes, including appointment reminders, follow-up messages, scheduling confirmations, and support communications. SMS messages are sent only to users who have explicitly opted in to receive them.
+            Covered uses SMS messaging solely for customer care purposes, including follow-up messages, scheduling confirmations, and support communications. SMS messages are sent only to users who have explicitly opted in to receive them.
           </p>
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">5.2 Opt-In and Opt-Out</h3>
