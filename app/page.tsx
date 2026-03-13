@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { CheckCircle, Zap, Users } from 'lucide-react';
+import { Phone, PhoneCall, PhoneIncoming } from 'lucide-react';
 
 export default function HomePage() {
   return (
@@ -41,18 +41,18 @@ export default function HomePage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center">
           <h1 className="text-5xl font-extrabold text-gray-900 sm:text-6xl md:text-7xl">
-            AI-Powered Meeting Scheduling
-            <span className="block text-gray-900">& Customer Care Support</span>
+            Turn More Leads Into
+            <span className="block text-gray-900">Live Phone Calls</span>
           </h1>
           <p className="mt-6 max-w-2xl mx-auto text-xl text-gray-600">
-            Automate appointment scheduling and provide 24/7 customer support with intelligent AI assistants. Transform your customer experience with seamless automation.
+            Customer Covered drives high-intent inbound calls to your business using AI-powered outreach. Stop chasing leads — let qualified prospects call you.
           </p>
           <div className="mt-10 flex justify-center gap-4">
             <Link
               href="/signup"
               className="px-8 py-4 bg-gray-900 text-white text-lg font-semibold rounded-lg hover:bg-gray-800 transition-colors shadow-lg"
             >
-              Get Started Free
+              Start Getting Calls
             </Link>
             <Link
               href="/about"
@@ -67,9 +67,9 @@ export default function HomePage() {
       {/* Features Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900">Why Choose Covered?</h2>
+          <h2 className="text-4xl font-bold text-gray-900">Why Choose Customer Covered?</h2>
           <p className="mt-4 text-xl text-gray-600">
-            Trusted by businesses to automate scheduling and deliver exceptional customer care
+            We specialize in one thing: getting your phone to ring with ready-to-buy customers
           </p>
         </div>
 
@@ -77,78 +77,78 @@ export default function HomePage() {
           {/* Feature 1 */}
           <div className="bg-white p-8 rounded-xl border border-gray-200 hover:border-gray-900 transition-all">
             <div className="flex justify-center mb-4">
-              <CheckCircle className="w-12 h-12 text-gray-900" />
+              <PhoneIncoming className="w-12 h-12 text-gray-900" />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 text-center mb-3">
-              Smart Meeting Scheduling
+              Inbound Call Generation
             </h3>
             <p className="text-gray-600 text-center">
-              AI-powered scheduling that automatically books appointments, sends reminders, and manages calendar conflicts without human intervention.
+              Our AI-powered SMS and outreach campaigns prompt high-intent prospects to call you directly — no cold calling required on your end.
             </p>
           </div>
 
           {/* Feature 2 */}
           <div className="bg-white p-8 rounded-xl border border-gray-200 hover:border-gray-900 transition-all">
             <div className="flex justify-center mb-4">
-              <Zap className="w-12 h-12 text-gray-900" />
+              <PhoneCall className="w-12 h-12 text-gray-900" />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 text-center mb-3">
-              24/7 Customer Support
+              Pre-Qualified Callers
             </h3>
             <p className="text-gray-600 text-center">
-              AI assistants that handle customer inquiries, resolve issues, and provide instant support around the clock.
+              Every call that comes in has already been warmed up and pre-qualified through our automated messaging flow, so your team closes more deals.
             </p>
           </div>
 
           {/* Feature 3 */}
           <div className="bg-white p-8 rounded-xl border border-gray-200 hover:border-gray-900 transition-all">
             <div className="flex justify-center mb-4">
-              <Users className="w-12 h-12 text-gray-900" />
+              <Phone className="w-12 h-12 text-gray-900" />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 text-center mb-3">
-              Intelligent Automation
+              Real-Time Call Tracking
             </h3>
             <p className="text-gray-600 text-center">
-              Natural language processing that understands customer needs and provides personalized responses and solutions.
+              Track every call, measure campaign performance, and optimize your outreach to maximize the volume and quality of inbound calls.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Our Solutions Section */}
+      {/* How It Works Section */}
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900">How It Works</h2>
             <p className="mt-4 text-xl text-gray-600">
-              AI-powered automation that transforms customer interactions
+              A simple, proven system that fills your phone with qualified callers
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-16 items-start">
-            {/* Solutions List */}
+            {/* Steps List */}
             <div className="space-y-12">
-              {/* Solution 1 */}
+              {/* Step 1 */}
               <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">AI Meeting Scheduler</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">1. We Reach Your Prospects</h3>
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Let AI handle appointment booking automatically. Customers can schedule meetings via chat, email, or SMS, with automatic calendar integration and conflict resolution.
+                  Our AI sends personalized SMS messages to your target audience, sparking interest and prompting them to take action — by calling your business directly.
                 </p>
               </div>
 
-              {/* Solution 2 */}
+              {/* Step 2 */}
               <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Automated Customer Care</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">2. Prospects Call You</h3>
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  AI-powered support agents that understand customer questions, provide instant answers, and escalate complex issues to human agents when needed.
+                  Interested leads call your number directly. No forms, no waiting — just live, inbound phone conversations with people who want what you offer.
                 </p>
               </div>
 
-              {/* Solution 3 */}
+              {/* Step 3 */}
               <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Smart Reminders & Follow-ups</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">3. You Close the Deal</h3>
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Automated appointment reminders, follow-up messages, and proactive customer care that keeps your clients engaged and informed.
+                  Your team handles warm, ready-to-convert callers. We track results and continuously optimize campaigns to keep the calls coming.
                 </p>
               </div>
             </div>
@@ -157,7 +157,7 @@ export default function HomePage() {
             <div className="rounded-lg overflow-hidden sticky top-8 flex items-start justify-center">
               <Image 
                 src="/Covered.png" 
-                alt="Covered Solutions"
+                alt="Customer Covered - Drive Phone Calls"
                 width={350} 
                 height={350}
                 className="w-auto h-auto object-contain max-w-full"
@@ -172,16 +172,16 @@ export default function HomePage() {
         <div className="bg-gray-900 rounded-2xl shadow-2xl overflow-hidden">
           <div className="px-6 py-16 sm:px-12 sm:py-20 text-center">
             <h2 className="text-4xl font-bold text-white mb-6">
-              Ready to Transform Customer Conversations?
+              Ready to Fill Your Phone With Qualified Callers?
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Join businesses that trust Covered to automate scheduling and drive meaningful customer conversations with AI.
+              Join businesses that trust Customer Covered to drive high-intent inbound calls and grow their revenue.
             </p>
             <Link
               href="/signup"
               className="inline-block px-8 py-4 bg-white text-gray-900 text-lg font-semibold rounded-lg hover:bg-gray-100 transition-colors shadow-lg"
             >
-              Get Started Today
+              Start Getting Calls Today
             </Link>
           </div>
         </div>
@@ -192,9 +192,9 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Covered</h3>
+              <h3 className="text-xl font-bold mb-4">Customer Covered</h3>
               <p className="text-gray-400">
-                AI-powered meeting scheduling and customer care automation.
+                AI-powered inbound call generation for businesses that want to grow.
               </p>
             </div>
             <div>
@@ -240,7 +240,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 Covered. All rights reserved.</p>
+            <p>&copy; 2025 Customer Covered. All rights reserved.</p>
           </div>
         </div>
       </footer>

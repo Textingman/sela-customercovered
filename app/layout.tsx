@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Covered - AI Meeting Scheduling & Customer Care",
-  description: "Automate appointment scheduling and provide 24/7 customer support with intelligent AI assistants. Transform your customer experience.",
+  title: "Customer Covered - Drive Inbound Phone Calls With AI",
+  description: "Customer Covered uses AI-powered SMS outreach to turn prospects into live inbound phone calls. Get qualified callers contacting your business today.",
 };
 
 export default function RootLayout({
